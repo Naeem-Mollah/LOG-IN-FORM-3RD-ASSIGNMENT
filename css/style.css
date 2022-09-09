@@ -1,0 +1,82 @@
+.{
+padding: 0;
+margin: 0;
+}
+body{
+font-family: serif;
+font-size: 14px;
+line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6 {
+font-family: sans-serif;
+}
+a, a:hover{
+text-decoration: none;
+}
+.loging-box{
+width: 475px;
+margin: 25px auto;
+}
+.main-form{
+width: 85%;
+padding:15px;
+background: LightBlue;
+border: 5px solid #000;
+border-radius: 15px;
+}
+.main-form .avater-img {
+width: 100%;
+text-align: center;
+}
+.main-form .avater-img .avater{
+width: 137px;
+height: 130px;
+border-radius: 100%;
+border: 1px solid #000;
+}
+.main-form h1{
+font-size: 35px;
+line-height: 47px;
+caption-side:#000;
+text-transform: uppercase;
+font-weight: 300px;
+text-align: center;
+margin: 15px 0px;
+}
+.main-form .form-group{
+width: 100%;
+margin: 10px 0px;
+}
+.main-form .form-group label{
+display: block;
+font-size: 14px;
+text-transform: uppercase;
+line-height: 24px;
+font-family: 400px;
+margin: 0px 0px 5px;
+}
+.main-form .form-control{
+width: 95.5%;
+padding: 10px;
+font-size: 14px;
+border: 1px solid #000;
+color: #000;
+}
+.main-form .log-in{
+margin:15px 0px ;
+padding: 5px 5px;
+border: 1px solid #000;
+background: #0a7cff;
+color: #fff;
+font-size: 14px;
+font-weight: 600;
+letter-spacing: 5px;
+text-transform: uppercase;
+}
+.social-icons .icons{
+list-style: none;
+text-align: center;
+display: inline-flex;
+letter-spacing: 60px;
+font-size: 30px;
+}
